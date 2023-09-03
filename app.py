@@ -43,14 +43,14 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What I do")
+        st.header("My Work")
         st.write("##")
         st.write(
             """
             Google 1821BEATs for more
             """
         )
-        st.write("[Apple music >](https://music.apple.com/za/artist/1821beats/1528995634)")
+        st.write("[More about 1821 >](https://www.google.com/search?client=firefox-b-d&q=1821beats)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
